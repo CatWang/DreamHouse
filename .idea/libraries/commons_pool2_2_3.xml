@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="commons-pool2-2.3">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/commons-pool2-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/commons-dbcp2-2.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpclient-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpclient-cache-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpclient-win-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpcore-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpcore-ab-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/httpcore-nio-4.4.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/postgresql-9.4-1201.jdbc41.jar!/" />
+      <root url="jar://$PROJECT_DIR$/jsoup-1.8.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

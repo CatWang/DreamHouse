@@ -1,0 +1,46 @@
+*{
+	margin:0px;
+}
+
+html{
+	overflow-y:hidden;
+	}
+	
+#cont{
+	width:100%;
+	position:relative;
+	}
+	
+.stage{
+	width:100%;
+	height:580px;
+	display:block;
+	position: relative;
+	overflow: hidden;
+	}
+	
+.stage_box{width:900px;height:580px;margin:auto;position:relative;text-align:center;overflow:hidden;}
+
+#stage1{
+	background-image:url(../images/homebg.jpg);
+	background-size:cover;
+	}
+	
+#stage2{background-image:url(../images/loginbg1.jpg);
+	background-size:cover;}
+
+
+
+.homeimg{
+	height:768px;
+	margin-top:-94px;
+	}
+	
+.btn_down{width:80px;height:80px;position:absolute;bottom:0px;margin-left: -10px;left: 50%;cursor:pointer;}
+.sign {position:absolute; width: 32px;height:12px;left:24px;}
+#sign1_1{background: url(../images/sign1.png) no-repeat ;bottom: 30px;}
+#sign2_1{background: url(../images/sign2.png) no-repeat ;bottom: 38px;}
+#sign3_1{background: url(../images/sign3.png) no-repeat ;bottom: 46px;}
+.signImg1{background: url(../images/sign_1.png) no-repeat ;bottom: 30px;}
+.signImg2{background: url(../images/sign_2.png) no-repeat ;bottom: 38px;}
+.signImg3{background: url(../images/sign_3.png) no-repeat ;bottom: 46px;}

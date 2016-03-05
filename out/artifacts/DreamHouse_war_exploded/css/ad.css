@@ -1,0 +1,109 @@
+.coursetable {
+    position: relative;
+    width: 908px;
+    height: 1000px;
+    margin-left: 10px;
+}
+
+.ct-week {
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+
+.ct-time {
+    position: absolute;
+    top: 24px;
+    left: 0;
+}
+
+.courses {
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    color:#F03;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight:bold;
+}
+
+
+.ct-week li {
+    float: left;
+    margin-right: 26px;
+    height: 20px;
+    width: 180px;
+    color:#FFF;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    background-color: #767676;
+}
+
+.ct-week li:last-child {
+    margin-right: 0;
+}
+
+
+.ct-time li {
+    margin-top: 8px;
+    height: 25px;
+    width: 16px;
+    color:#F99;
+    font-size: 12px;
+    line-height: 25px;
+    text-align: center;
+    font-weight:bold;
+}
+
+.ct-time li:last-child {
+    margin-bottom: 0;
+}
+
+.separator {
+    position: absolute;
+    width: 908px;
+}
+
+.separator li {
+    list-style: none;
+    float: left;
+    width: 180px;
+    margin: 12px 0;
+    margin-right: 26px;
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.separator li:last-child {
+    margin-right: 0;
+}
+
+.separator-class {
+    left: 0;
+    top: 15px;
+}
+
+.bar {
+    margin-bottom: 25px;
+}
+
+.bar-title {
+    text-align: center;
+    border-bottom: 2px solid #d5d5d5;
+    margin-bottom: 0.7em;
+    margin-top: 30px;
+}
+
+.bar-title h1, .bar-title h2, .bar-title h3 {
+    display: inline-block;
+    margin-bottom: -2px;
+    border-bottom: 2px solid #fd7100;
+    color: #202020;
+    font-size: inherit;
+    text-shadow: 1px 1px 1px #fff;
+    line-height: 1.3em;
+}
+
+.bar-title-18 {
+    font-size: 18px;
+}

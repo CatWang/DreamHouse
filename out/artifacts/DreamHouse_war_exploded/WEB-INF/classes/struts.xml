@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+        <package name="dreamhouse.action" extends="struts-default">
+                <action name="LoginAciton" class="dream.action.LoginAction">
+                        <result name="success">
+                                /branch.jsp
+                        </result>
+                        <result name="input">
+                                /index.jsp
+                        </result>
+                </action>
+                <action name="LogoutAction" class="dream.action.LogoutAction">
+                        <result name="success">
+                                /index.jsp
+                        </result>
+                        <result name="input">
+                                /fail.html
+                        </result>
+                </action>
+
+                <action name="updateBranchAction" class="dream.action.UpdateBranchAction">
+                        <result name="success">
+                                /branch.jsp
+                        </result>
+                        <result name="input">
+                                /fail.html
+                        </result>
+                </action>
+
+                <action name="insertBranchAction" class="dream.action.InsertBranchAction">
+                        <result name="success">
+                                /branch.jsp
+                        </result>
+                        <result name="input">
+                                /fail.html
+                        </result>
+                </action>
+
+                <action name="deleteBranchAction" class="dream.action.DeleteBranchAction">
+                        <result name="success">
+                                /branch.jsp
+                        </result>
+                        <result name="input">
+                                /fail.html
+                        </result>
+                </action>
+                <action name="findBranchWithKey" class="dream.action.FindBranchWithKeyAction">
+                        <result name="success">
+                                /branch_result.jsp
+                        </result>
+                        <result name="input">
+                                /fail.html
+                        </result>
+                </action>
+        </package>
+</struts>
